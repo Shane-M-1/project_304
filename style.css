@@ -1,0 +1,110 @@
+html {
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav button {
+  background-color: white;
+  font-size: medium;
+}
+
+nav button:hover {
+  background-color: lightgray;
+
+
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.generalbtn {
+  border-radius: 7px;
+  background-color: rgb(59, 129, 241);
+  border: none;
+  color: white;
+  padding: 8px;
+}
+
+.generalbtn:hover {
+  background-color: rgb(50, 112, 210);
+}
+
+input[type='text'], input[type=number], input[type=password], input[type=date] {
+  border-radius: 0px;
+  border-color: lightgray;
+  border-style:solid;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=password]:focus, input[type=date]:focus {
+  outline: none;
+  border: 2px solid #555;
+}
+
+table {
+  border-spacing: 2em 10px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(167, 167, 166);
+  margin-top: 30px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  color: white;
+  width: 250px;
+  height: 275px;
+}
+
+.login h2 {
+  color: white;
+  margin-top: 10px;
+}
+
+
+.login-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login input {
+  border-radius: 6px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.login button {
+  margin-top: 10px;
+}
+
+#login-heading {
+  max-width: fit-content;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(167, 167, 166);
+  padding: 17px;
+  color: white;
+  border-radius: 14px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
